@@ -21,7 +21,7 @@
 ### Contract deployement and Program Execution
 1. clone the repository :
  ```sh
-git clone https://github.com/gmchad/zardkat
+git clone https://github.com/ShivamGupta92/METACRAFTERS-POLYGON-MODULE-1.git
  ```
 2. Run following commands after changeing directory
 ```sh
