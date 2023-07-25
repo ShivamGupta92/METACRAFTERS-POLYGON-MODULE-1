@@ -6,28 +6,24 @@ async function main() {
 
   const networkAddress =
     "https://eth-goerli.g.alchemy.com/v2/7mXFDS2YcwySywIsk9o2lGMODBzxcT5U";
-    // "https://polygon-mumbai.g.alchemy.com/v2/AXSKlnjUD7bfAoL3n0x8QLIIEcX7PlD3";
-
 
   const provider = new ethers.providers.JsonRpcProvider(networkAddress);
-
-  
   const signer = new ethers.Wallet(privateKey, provider);
 
-  
-  const contractAddress = "0x9093F40AeDc4094A0131866583f8B4b778F32271";
-  //Update the deployement address here
+  const contractAddress = "0x919a50c80ab3de90613D8031B90457b2922968CF";
 
-  
-  const IndianNFT = await ethers.getContractFactory("BirdOfParadise", signer);
-  const contract = await IndianNFT.attach(contractAddress);
+   
+  const BirdOfParadise = await ethers.getContractFactory("BirdOfParadise", signer);
+  const contract = await BirdOfParadise.attach(contractAddress);
 
-  
-  await contract.mint(5);
+  const numberOfTokensToMint = 5;
+
+  await contract.mint(numberOfTokensToMint);
 
   
   console.log("Minted 5 Love bird's NFT's");
 }
+
 
 main()
   .then(() => process.exit(0))
