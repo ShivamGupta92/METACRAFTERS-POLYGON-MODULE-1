@@ -53,6 +53,10 @@ Finaly all the BirdOfParadise NFT's will be transfered from Ethereum to Polygon 
 
 And Balance in Eth will become 0 and in Polygon Mumbai 5 NFT's
 
+## console Output
+![image](https://github.com/ShivamGupta92/METACRAFTERS-POLYGON-MODULE-1/assets/70855458/0be3634d-a5ba-4785-87be-d4baa217ba8f)
+![image](https://github.com/ShivamGupta92/METACRAFTERS-POLYGON-MODULE-1/assets/70855458/0971b238-939a-423a-ba64-5849281e501e)
+
 # Visualization and Links
 
 ![image](https://github.com/ShivamGupta92/METACRAFTERS-POLYGON-MODULE-1/assets/70855458/6ecf593f-ca21-4af3-b84e-2fb0af10b705)
