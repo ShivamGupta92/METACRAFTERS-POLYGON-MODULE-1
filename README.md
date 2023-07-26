@@ -74,3 +74,6 @@ https://mumbai.polygonscan.com/token/0xfc8e8c05329432f9604897dc2cf6c263a8f947ca
 
 ## Author
 Shivam Gupta
+
+## LICENSE
+This project is licensed under the [MIT License](LICENSE).
